@@ -1,0 +1,51 @@
+:root {
+  --WHITE: #fff;
+  --BLACK: #000;
+  --X11-GRAY: #BBBBBB;
+  --ARSENIC: #414141;
+  --RAISIN-BLACK: #212121;
+  --SMOKY-BLACK: #0B0C0E;
+  --CULTURED: #F5F5F5;
+  --SIZZLING-SUNRISE: #FFDA00;
+  --DARK-ELECTRIC-BLUE: #59607C;
+  --first-family: "Satoshi", sans-serif;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-Regular.woff2") format("woff2"), url("../fonts/satoshi/Satoshi-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-Medium.woff2") format("woff2"), url("../fonts/satoshi/Satoshi-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-Bold.woff2") format("woff2"), url("../fonts/satoshi/Satoshi-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--first-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.container {
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
