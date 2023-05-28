@@ -186,7 +186,7 @@
 .article {
   padding: 150px 0;
   background-color: var(--SMOKY-BLACK);
-  position: relative;
+  border-radius: 60px;
 }
 
 .article-content {
