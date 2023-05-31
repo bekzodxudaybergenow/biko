@@ -10,6 +10,7 @@
   --DARK-ELECTRIC-BLUE: #59607C;
   --CHINESE-BLACK: #141415;
   --PHILIPPINE-SILVER: #B5B5B5;
+  --ANTI-FLASH-WHITE: #F1F1F1;
   --first-family: "Satoshi", sans-serif;
 }
 
@@ -523,6 +524,66 @@
   max-width: 160px;
   font-size: 14px;
   line-height: 21px;
+}
+
+.order {
+  padding: 150px 0;
+}
+
+.order-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-content {
+  max-width: 750px;
+  text-align: center;
+}
+
+.order-content-title {
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 156px;
+  color: var(--SMOKY-BLACK);
+  margin-bottom: 58px;
+}
+
+.order-content-desc {
+  margin-bottom: 59px;
+}
+
+.order-content-btns {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.order-content-btn-more.btn,
+.order-content-btn-order.btn {
+  height: 74px;
+}
+
+.order-content-btn-more.btn {
+  max-width: 250px;
+  background-color: var(--ANTI-FLASH-WHITE);
+  color: var(--BLACK);
+  transition: ease-in-out 0.2s;
+}
+.order-content-btn-more.btn:hover {
+  color: var(--WHITE);
+  background-color: var(--SMOKY-BLACK);
+}
+
+.order-content-btn-order.btn {
+  max-width: 298px;
+  color: var(--WHITE);
+  background-color: var(--SMOKY-BLACK);
+  transition: ease-in-out 0.2s;
+}
+.order-content-btn-order.btn:hover {
+  background-color: var(--RAISIN-BLACK);
 }
 
 *,
